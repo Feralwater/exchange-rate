@@ -1,1 +1,1 @@
-# exchange-rate
+# ITRex Group test task
