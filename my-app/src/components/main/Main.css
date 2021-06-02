@@ -2,7 +2,7 @@
     max-width: 1280px;
     margin: 0 auto;
     background-color: #ffffff;
-    min-height: calc(100vh + 110px);
+    min-height: calc(100vh - 150px);
     padding: 0 20px 20px 20px;
 }
 
@@ -47,4 +47,117 @@ table {
     margin: 0 auto 20px auto;
     border: 1px solid #d0c2a5;
     border-spacing: 0;
+}
+
+.au {
+    background: url("../../img/au.svg") 5px 50%/contain no-repeat;
+}
+
+.bg {
+    background: url("../../img/bg.svg") 5px 50%/contain no-repeat;
+}
+
+.ua {
+    background: url("../../img/ua.svg") 5px 50%/contain no-repeat;
+}
+
+.au {
+    background: url("../../img/au.svg") 5px 50%/contain no-repeat;
+}
+
+.dk {
+    background: url("../../img/dk.svg") 5px 50%/contain no-repeat;
+}
+
+.us {
+    background: url("../../img/us.svg") 5px 50%/contain no-repeat;
+}
+
+.au {
+    background: url("../../img/au.svg") 5px 50%/contain no-repeat;
+}
+
+.eu {
+    background: url("../../img/eu.svg") 5px 50%/contain no-repeat;
+}
+
+.pl {
+    background: url("../../img/pl.svg") 5px 50%/contain no-repeat;
+}
+
+.jp {
+    background: url("../../img/jp.svg") 5px 50%/contain no-repeat;
+}
+
+.ir {
+    background: url("../../img/ir.svg") 5px 50%/contain no-repeat;
+}
+
+.is {
+    background: url("../../img/is.svg") 5px 50%/contain no-repeat;
+}
+
+.ca {
+    background: url("../../img/ca.svg") 5px 50%/contain no-repeat;
+}
+
+.cn {
+    background: url("../../img/cn.svg") 5px 50%/contain no-repeat;
+}
+
+.kw {
+    background: url("../../img/kw.svg") 5px 50%/contain no-repeat;
+}
+
+.md {
+    background: url("../../img/md.svg") 5px 50%/contain no-repeat;
+}
+
+.nz {
+    background: url("../../img/nz.svg") 5px 50%/contain no-repeat;
+}
+
+.no {
+    background: url("../../img/no.svg") 5px 50%/contain no-repeat;
+}
+
+.ru {
+    background: url("../../img/ru.svg") 5px 50%/contain no-repeat;
+}
+
+.sg {
+    background: url("../../img/sg.svg") 5px 50%/contain no-repeat;
+}
+
+.kg {
+    background: url("../../img/kg.svg") 5px 50%/contain no-repeat;
+}
+
+.kz {
+    background: url("../../img/kz.svg") 5px 50%/contain no-repeat;
+}
+
+.tr {
+    background: url("../../img/tr.svg") 5px 50%/contain no-repeat;
+}
+
+.gb {
+    background: url("../../img/gb.svg") 5px 50%/contain no-repeat;
+}
+
+.cz {
+    background: url("../../img/cz.svg") 5px 50%/contain no-repeat;
+}
+
+.se {
+    background: url("../../img/se.svg") 5px 50%/contain no-repeat;
+}
+
+.ch {
+    background: url("../../img/ch.svg") 5px 50%/contain no-repeat;
+}
+
+.flags {
+    background-size: 22px;
+    padding-left: 35px;
 }

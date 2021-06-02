@@ -31,6 +31,33 @@ const Main = () => {
     return dd + '.' + mm + '.' + nowDate.getFullYear();
   }
 
+  const flags = {
+    "AUD": "au",
+    "BGN": "bg",
+    "UAH": "ua",
+    "DKK": "dk",
+    "USD": "us",
+    "EUR": "eu",
+    "PLN": "pl",
+    "JPY": "jp",
+    "IRR": "ir",
+    "ISK": "is",
+    "CAD": "ca",
+    "CNY": "cn",
+    "KWD": "kw",
+    "MDL": "md",
+    "NZD": "nz",
+    "NOK": "no",
+    "RUB": "ru",
+    "SGD": "sg",
+    "KGS": "kg",
+    "KZT": "kz",
+    "TRY": "tr",
+    "GBP": "gb",
+    "CZK": "cz",
+    "SEK": "se",
+    "CHF": "ch",
+  }
 
   return (
     <div className="container">
@@ -46,7 +73,7 @@ const Main = () => {
         </tr>
         {data.map(el =>
           <tr>
-            <td>{el["Cur_Name"]}</td>
+            <td className={flags[el["Cur_Abbreviation"]] + " " + "flags"}>  {el["Cur_Name"]}</td>
             <td>{el["Cur_Scale"] + " " + el["Cur_Abbreviation"]}</td>
             <td>{el["Cur_OfficialRate"]}</td>
           </tr>)}
