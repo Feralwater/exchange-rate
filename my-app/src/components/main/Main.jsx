@@ -34,10 +34,10 @@ const Main = () => {
 
   return (
     <div className="container">
-      <div>
+      <h1 className="page_title">
         Официальный курс белорусского рубля по отношению к иностранным валютам,
         устанавливаемый Национальным банком Республики Беларусь ежедневно, на {formatDate()}
-      </div>
+      </h1>
       <table>
         <tr className="table_header">
           <th className="table-title">Наименование иностранной валюты</th>
