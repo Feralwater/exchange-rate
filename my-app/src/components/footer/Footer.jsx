@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer">
-        <div>ITRex Group Node.js Lab | Test task</div>
+        <div>© ITRex Group Node.js Lab | Test task by Feralwater</div>
       </footer>
     </div>
   );

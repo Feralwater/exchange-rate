@@ -66,17 +66,21 @@ const Main = () => {
         устанавливаемый Национальным банком Республики Беларусь ежедневно, на {formatDate()}
       </h1>
       <table>
+        <thead>
         <tr className="table_header">
           <th className="table-title">Наименование иностранной валюты</th>
           <th className="table-title">Количество единиц иностранной валюты, буквенный код валюты</th>
           <th className="table-title">Официальный курс</th>
         </tr>
-        {data.map(el =>
-          <tr>
+        </thead>
+        <tbody>
+        {data.map((el,index) =>
+          <tr key={index}>
             <td className={flags[el["Cur_Abbreviation"]] + " " + "flags"}>  {el["Cur_Name"]}</td>
             <td>{el["Cur_Scale"] + " " + el["Cur_Abbreviation"]}</td>
             <td>{el["Cur_OfficialRate"]}</td>
           </tr>)}
+        </tbody>
       </table>
     </div>
   );
