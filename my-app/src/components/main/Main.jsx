@@ -65,7 +65,7 @@ const Main = () => {
         Официальный курс белорусского рубля по отношению к иностранным валютам,
         устанавливаемый Национальным банком Республики Беларусь ежедневно, на {formatDate()}
       </h1>
-      <table>
+      <table className="currencyTable">
         <thead>
         <tr className="table_header">
           <th className="table-title">Наименование иностранной валюты</th>
@@ -74,11 +74,11 @@ const Main = () => {
         </tr>
         </thead>
         <tbody>
-        {data.map((el,index) =>
+        {data.map((el, index) =>
           <tr key={index}>
-            <td className={flags[el["Cur_Abbreviation"]] + " " + "flags"}>  {el["Cur_Name"]}</td>
-            <td>{el["Cur_Scale"] + " " + el["Cur_Abbreviation"]}</td>
-            <td>{el["Cur_OfficialRate"]}</td>
+            <td className={flags[el["Cur_Abbreviation"]] + " " + "flags" + " " + "curName"}>  {el["Cur_Name"]}</td>
+            <td className="curAmount">{el["Cur_Scale"] + " " + el["Cur_Abbreviation"]}</td>
+            <td className="curCourse">{el["Cur_OfficialRate"]}</td>
           </tr>)}
         </tbody>
       </table>

@@ -161,3 +161,45 @@ table {
     background-size: 22px;
     padding-left: 35px;
 }
+
+
+@media screen and (max-width: 600px) {
+    .page_title {
+        font-size: 12px;
+        padding: 1rem;
+    }
+
+    thead {
+        display: none;
+    }
+
+    table {
+        border: 2px solid #ddd;
+    }
+
+    table.currencyTable tr {
+        clear: both;
+        display: block;
+    }
+
+    table.currencyTable td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+    }
+
+    table.currencyTable td.curName {
+        width: 100%;
+        background-color: #f4f0e8;
+    }
+
+    table.currencyTable td.curAmount,
+    table.currencyTable td.curCourse {
+        width: 50%;
+        float: left;
+    }
+
+    table.currencyTable td.curCourse {
+        text-align: right;
+    }
+}
+
